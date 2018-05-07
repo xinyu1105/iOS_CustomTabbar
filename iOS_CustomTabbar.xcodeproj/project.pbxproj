@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29BBE178209FFF3900D36631 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBE177209FFF3900D36631 /* AppDelegate.m */; };
-		29BBE17B209FFF3900D36631 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBE17A209FFF3900D36631 /* ViewController.m */; };
 		29BBE17E209FFF3900D36631 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29BBE17C209FFF3900D36631 /* Main.storyboard */; };
 		29BBE180209FFF3900D36631 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29BBE17F209FFF3900D36631 /* Assets.xcassets */; };
 		29BBE183209FFF3900D36631 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29BBE181209FFF3900D36631 /* LaunchScreen.storyboard */; };
-		29BBE186209FFF3900D36631 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBE185209FFF3900D36631 /* main.m */; };
 		29BBE190209FFF3900D36631 /* iOS_CustomTabbarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBE18F209FFF3900D36631 /* iOS_CustomTabbarTests.m */; };
 		29BBE19B209FFF3900D36631 /* iOS_CustomTabbarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBE19A209FFF3900D36631 /* iOS_CustomTabbarUITests.m */; };
+		29BBE1CF20A0018C00D36631 /* LBFishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBE1AC20A0018C00D36631 /* LBFishViewController.m */; };
+		29BBE1D020A0018C00D36631 /* LBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBE1B020A0018C00D36631 /* LBHomeViewController.m */; };
+		29BBE1D120A0018C00D36631 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBE1B420A0018C00D36631 /* UIImage+Image.m */; };
+		29BBE1D220A0018C00D36631 /* UIView+LBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBE1B620A0018C00D36631 /* UIView+LBExtension.m */; };
+		29BBE1D320A0018C00D36631 /* LBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBE1B920A0018C00D36631 /* LBNavigationController.m */; };
+		29BBE1D420A0018C00D36631 /* LBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBE1BB20A0018C00D36631 /* LBTabBarController.m */; };
+		29BBE1D520A0018C00D36631 /* LBTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBE1BE20A0018C00D36631 /* LBTabBar.m */; };
+		29BBE1D620A0018C00D36631 /* LBMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBE1C220A0018C00D36631 /* LBMessageViewController.m */; };
+		29BBE1D720A0018C00D36631 /* LBMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBE1C620A0018C00D36631 /* LBMineViewController.m */; };
+		29BBE1D820A0018C00D36631 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBE1C920A0018C00D36631 /* AppDelegate.m */; };
+		29BBE1D920A0018C00D36631 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBE1CA20A0018C00D36631 /* main.m */; };
+		29BBE1DA20A0018C00D36631 /* LBpostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBE1CE20A0018C00D36631 /* LBpostViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +45,39 @@
 
 /* Begin PBXFileReference section */
 		29BBE173209FFF3900D36631 /* iOS_CustomTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_CustomTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		29BBE176209FFF3900D36631 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		29BBE177209FFF3900D36631 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		29BBE179209FFF3900D36631 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		29BBE17A209FFF3900D36631 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		29BBE17D209FFF3900D36631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29BBE17F209FFF3900D36631 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29BBE182209FFF3900D36631 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29BBE184209FFF3900D36631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29BBE185209FFF3900D36631 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29BBE18B209FFF3900D36631 /* iOS_CustomTabbarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_CustomTabbarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29BBE18F209FFF3900D36631 /* iOS_CustomTabbarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_CustomTabbarTests.m; sourceTree = "<group>"; };
 		29BBE191209FFF3900D36631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29BBE196209FFF3900D36631 /* iOS_CustomTabbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_CustomTabbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29BBE19A209FFF3900D36631 /* iOS_CustomTabbarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_CustomTabbarUITests.m; sourceTree = "<group>"; };
 		29BBE19C209FFF3900D36631 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29BBE1AB20A0018C00D36631 /* LBFishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFishViewController.h; sourceTree = "<group>"; };
+		29BBE1AC20A0018C00D36631 /* LBFishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBFishViewController.m; sourceTree = "<group>"; };
+		29BBE1AF20A0018C00D36631 /* LBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBHomeViewController.h; sourceTree = "<group>"; };
+		29BBE1B020A0018C00D36631 /* LBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBHomeViewController.m; sourceTree = "<group>"; };
+		29BBE1B320A0018C00D36631 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		29BBE1B420A0018C00D36631 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		29BBE1B520A0018C00D36631 /* UIView+LBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LBExtension.h"; sourceTree = "<group>"; };
+		29BBE1B620A0018C00D36631 /* UIView+LBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LBExtension.m"; sourceTree = "<group>"; };
+		29BBE1B820A0018C00D36631 /* LBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBNavigationController.h; sourceTree = "<group>"; };
+		29BBE1B920A0018C00D36631 /* LBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBNavigationController.m; sourceTree = "<group>"; };
+		29BBE1BA20A0018C00D36631 /* LBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTabBarController.h; sourceTree = "<group>"; };
+		29BBE1BB20A0018C00D36631 /* LBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTabBarController.m; sourceTree = "<group>"; };
+		29BBE1BD20A0018C00D36631 /* LBTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTabBar.h; sourceTree = "<group>"; };
+		29BBE1BE20A0018C00D36631 /* LBTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTabBar.m; sourceTree = "<group>"; };
+		29BBE1C120A0018C00D36631 /* LBMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBMessageViewController.h; sourceTree = "<group>"; };
+		29BBE1C220A0018C00D36631 /* LBMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBMessageViewController.m; sourceTree = "<group>"; };
+		29BBE1C520A0018C00D36631 /* LBMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBMineViewController.h; sourceTree = "<group>"; };
+		29BBE1C620A0018C00D36631 /* LBMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBMineViewController.m; sourceTree = "<group>"; };
+		29BBE1C820A0018C00D36631 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29BBE1C920A0018C00D36631 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29BBE1CA20A0018C00D36631 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29BBE1CD20A0018C00D36631 /* LBpostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBpostViewController.h; sourceTree = "<group>"; };
+		29BBE1CE20A0018C00D36631 /* LBpostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBpostViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +128,11 @@
 		29BBE175209FFF3900D36631 /* iOS_CustomTabbar */ = {
 			isa = PBXGroup;
 			children = (
-				29BBE176209FFF3900D36631 /* AppDelegate.h */,
-				29BBE177209FFF3900D36631 /* AppDelegate.m */,
-				29BBE179209FFF3900D36631 /* ViewController.h */,
-				29BBE17A209FFF3900D36631 /* ViewController.m */,
+				29BBE1A820A0018C00D36631 /* Classes */,
 				29BBE17C209FFF3900D36631 /* Main.storyboard */,
 				29BBE17F209FFF3900D36631 /* Assets.xcassets */,
 				29BBE181209FFF3900D36631 /* LaunchScreen.storyboard */,
 				29BBE184209FFF3900D36631 /* Info.plist */,
-				29BBE185209FFF3900D36631 /* main.m */,
 			);
 			path = iOS_CustomTabbar;
 			sourceTree = "<group>";
@@ -130,6 +153,156 @@
 				29BBE19C209FFF3900D36631 /* Info.plist */,
 			);
 			path = iOS_CustomTabbarUITests;
+			sourceTree = "<group>";
+		};
+		29BBE1A820A0018C00D36631 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				29BBE1A920A0018C00D36631 /* Fish */,
+				29BBE1AD20A0018C00D36631 /* Home */,
+				29BBE1B120A0018C00D36631 /* Main */,
+				29BBE1BF20A0018C00D36631 /* Message */,
+				29BBE1C320A0018C00D36631 /* Mine */,
+				29BBE1C720A0018C00D36631 /* Other */,
+				29BBE1CB20A0018C00D36631 /* Post */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		29BBE1A920A0018C00D36631 /* Fish */ = {
+			isa = PBXGroup;
+			children = (
+				29BBE1AA20A0018C00D36631 /* Controller */,
+			);
+			path = Fish;
+			sourceTree = "<group>";
+		};
+		29BBE1AA20A0018C00D36631 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				29BBE1AB20A0018C00D36631 /* LBFishViewController.h */,
+				29BBE1AC20A0018C00D36631 /* LBFishViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		29BBE1AD20A0018C00D36631 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				29BBE1AE20A0018C00D36631 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		29BBE1AE20A0018C00D36631 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				29BBE1AF20A0018C00D36631 /* LBHomeViewController.h */,
+				29BBE1B020A0018C00D36631 /* LBHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		29BBE1B120A0018C00D36631 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				29BBE1B220A0018C00D36631 /* Category */,
+				29BBE1B720A0018C00D36631 /* Controller */,
+				29BBE1BC20A0018C00D36631 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		29BBE1B220A0018C00D36631 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				29BBE1B320A0018C00D36631 /* UIImage+Image.h */,
+				29BBE1B420A0018C00D36631 /* UIImage+Image.m */,
+				29BBE1B520A0018C00D36631 /* UIView+LBExtension.h */,
+				29BBE1B620A0018C00D36631 /* UIView+LBExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		29BBE1B720A0018C00D36631 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				29BBE1B820A0018C00D36631 /* LBNavigationController.h */,
+				29BBE1B920A0018C00D36631 /* LBNavigationController.m */,
+				29BBE1BA20A0018C00D36631 /* LBTabBarController.h */,
+				29BBE1BB20A0018C00D36631 /* LBTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		29BBE1BC20A0018C00D36631 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29BBE1BD20A0018C00D36631 /* LBTabBar.h */,
+				29BBE1BE20A0018C00D36631 /* LBTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29BBE1BF20A0018C00D36631 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				29BBE1C020A0018C00D36631 /* Controller */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		29BBE1C020A0018C00D36631 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				29BBE1C120A0018C00D36631 /* LBMessageViewController.h */,
+				29BBE1C220A0018C00D36631 /* LBMessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		29BBE1C320A0018C00D36631 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				29BBE1C420A0018C00D36631 /* Controller */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		29BBE1C420A0018C00D36631 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				29BBE1C520A0018C00D36631 /* LBMineViewController.h */,
+				29BBE1C620A0018C00D36631 /* LBMineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		29BBE1C720A0018C00D36631 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				29BBE1C820A0018C00D36631 /* AppDelegate.h */,
+				29BBE1C920A0018C00D36631 /* AppDelegate.m */,
+				29BBE1CA20A0018C00D36631 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		29BBE1CB20A0018C00D36631 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				29BBE1CC20A0018C00D36631 /* Controller */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		29BBE1CC20A0018C00D36631 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				29BBE1CD20A0018C00D36631 /* LBpostViewController.h */,
+				29BBE1CE20A0018C00D36631 /* LBpostViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +438,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29BBE17B209FFF3900D36631 /* ViewController.m in Sources */,
-				29BBE186209FFF3900D36631 /* main.m in Sources */,
-				29BBE178209FFF3900D36631 /* AppDelegate.m in Sources */,
+				29BBE1D020A0018C00D36631 /* LBHomeViewController.m in Sources */,
+				29BBE1D420A0018C00D36631 /* LBTabBarController.m in Sources */,
+				29BBE1D220A0018C00D36631 /* UIView+LBExtension.m in Sources */,
+				29BBE1D620A0018C00D36631 /* LBMessageViewController.m in Sources */,
+				29BBE1CF20A0018C00D36631 /* LBFishViewController.m in Sources */,
+				29BBE1DA20A0018C00D36631 /* LBpostViewController.m in Sources */,
+				29BBE1D120A0018C00D36631 /* UIImage+Image.m in Sources */,
+				29BBE1D820A0018C00D36631 /* AppDelegate.m in Sources */,
+				29BBE1D720A0018C00D36631 /* LBMineViewController.m in Sources */,
+				29BBE1D320A0018C00D36631 /* LBNavigationController.m in Sources */,
+				29BBE1D920A0018C00D36631 /* main.m in Sources */,
+				29BBE1D520A0018C00D36631 /* LBTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,10 +615,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2LAAJN2NAF;
 				INFOPLIST_FILE = iOS_CustomTabbar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tiancity.iOS-CustomTabbar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -447,10 +630,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2LAAJN2NAF;
 				INFOPLIST_FILE = iOS_CustomTabbar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tiancity.iOS-CustomTabbar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
